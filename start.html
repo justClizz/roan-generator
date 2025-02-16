@@ -1,0 +1,21 @@
+<html>
+	<body>
+		<h1>RO'AN GENERATOR</>
+		<br />
+		<a>Firstly, tulis dulu nama santirnya formatnya bisa di cek <a href="format.html">disini</a>, le</a>
+		<input type="text" name="nama" id="txtJob" value="">
+<button onclick="meh()">Lanjut</button>
+		<a id="a"></a>
+		
+<script>
+	const y = localStorage.getItem("nama santri")
+	
+	
+document.getElementById("a").innerHTML = localStorage.getItem("nama santri");
+	
+	const x = document.getElementsByName('nama')[0].value
+function meh(){
+localStorage.setItem("nama santri", x)
+
+}
+</script>
